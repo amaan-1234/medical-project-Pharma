@@ -3,6 +3,8 @@
 ## Problem Statement
 Pharmaceutical companies spend billions of dollars on clinical trials with high failure rates. This project addresses this challenge by building a multi-modal AI system that predicts trial success by analyzing multiple data sources.
 
+## Demo Link: https://amaan-project-pharma.streamlit.app/
+
 ## Solution Overview
 Our system combines:
 - **Deep Learning Models**: For patient demographics and biomarker analysis
