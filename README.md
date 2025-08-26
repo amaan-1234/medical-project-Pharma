@@ -110,8 +110,5 @@ python models/train.py
 4. Add tests
 5. Submit a pull request
 
-## License
-MIT License - see LICENSE file for details
-
 ## Contact
 For questions or support, please open an issue on GitHub.
