@@ -1,0 +1,22 @@
+# API Configuration
+API_HOST=0.0.0.0
+API_PORT=8000
+API_DEBUG=False
+
+# Web Interface
+WEB_HOST=localhost
+WEB_PORT=8501
+
+# LLM Configuration
+LLM_PROVIDER=openai
+LLM_MODEL=gpt-4
+OPENAI_API_KEY=your-openai-api-key-here
+
+# Security
+SECRET_KEY=your-secret-key-here
+
+# Database (if using)
+DATABASE_URL=sqlite:///./clinical_trials.db
+
+# Logging
+LOG_LEVEL=INFO

@@ -1,0 +1,58 @@
+{
+  "training_summary": {
+    "total_samples": 1000,
+    "training_samples": 640,
+    "validation_samples": 160,
+    "test_samples": 200,
+    "features": 17,
+    "classes": 2
+  },
+  "model_performance": {
+    "neural_network": {
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "auc": 0.9430000000000001
+    },
+    "random_forest": {
+      "accuracy": 0.85,
+      "precision": 0.8723404255319149,
+      "recall": 0.82,
+      "f1": 0.845360824742268,
+      "auc": 0.946
+    }
+  },
+  "training_config": {
+    "input_size": 17,
+    "hidden_sizes": [
+      128,
+      64,
+      32
+    ],
+    "output_size": 1,
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "epochs": 100,
+    "batch_size": 32,
+    "early_stopping_patience": 10
+  },
+  "data_validation": {
+    "patient_data": [
+      true,
+      []
+    ],
+    "biomarker_data": [
+      true,
+      []
+    ],
+    "trial_data": [
+      true,
+      []
+    ],
+    "outcome_data": [
+      true,
+      []
+    ]
+  }
+}
